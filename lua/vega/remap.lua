@@ -1,5 +1,5 @@
-local nnoremap = require("theprimagen.keymap").nnoremap
-local inoremap = require("theprimagen.keymap").inoremap
+local nnoremap = require("vega.keymap").nnoremap
+local inoremap = require("vega.keymap").inoremap
 
 nnoremap("<leader>pv", "<cmd>Ex<CR>")
 nnoremap("<C-e>", ":source ~/.config/nvim/init.lua<CR>")
@@ -26,6 +26,8 @@ nnoremap("<C-d>", "<C-d>zz")
 nnoremap("<C-u>", "<C-u>zz")
 nnoremap("<leader>o", "o<esc>")
 nnoremap("<leader>O", "O<esc>")
+nnoremap("x", '"_x')
+nnoremap("dw", 'vb"_d')
 
 nnoremap("<leader>ca", "<cmd>lua vim.lsp.buf.code_action()<CR>")
 nnoremap("<leader>rn", "<cmd>lua vim.lsp.buf.rename()<CR>")
