@@ -24,6 +24,7 @@ packer.startup(function(use)
     use("hrsh7th/cmp-buffer")
     use("hrsh7th/cmp-nvim-lsp") -- nvim-cmp source for newvim's buil-in LSP
     use("hrsh7th/nvim-cmp")     -- Completion
+    use("preservim/tagbar")     -- tagbar for vim
     use({
         "nvim-treesitter/nvim-treesitter",
         run = ":TSUpdate",

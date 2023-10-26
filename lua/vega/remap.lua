@@ -19,9 +19,6 @@ nnoremap("<leader>hm", "<cmd>:lua require('harpoon.mark').add_file()<CR>")
 nnoremap("<leader>hn", "<cmd>:lua require('harpoon.ui').nav_next()<CR>")
 nnoremap("<leader>hp", "<cmd>:lua require('harpoon.ui').nav_prev()<CR>")
 
-nnoremap("<leader>f", "<cmd>Format<CR>")
-nnoremap("<leader>fw", "<cmd>FormatWrite<CR>")
-
 nnoremap("<C-d>", "<C-d>zz")
 nnoremap("<C-u>", "<C-u>zz")
 nnoremap("<leader>o", "o<esc>")
@@ -30,8 +27,6 @@ nnoremap("x", '"_x')
 nnoremap("dw", 'vb"_d')
 
 nnoremap("<leader>ca", "<cmd>lua vim.lsp.buf.code_action()<CR>")
-nnoremap("<leader>rn", "<cmd>lua vim.lsp.buf.rename()<CR>")
-nnoremap("<leader>k", "<cmd>lua vim.lsp.buf.hover()<CR>")
 
 nnoremap("<leader>gs", "<cmd>Gitsigns preview_hunk<CR>")
 nnoremap("<leader>ga", "<cmd>Gitsigns preview_hunk_inline<CR>")
